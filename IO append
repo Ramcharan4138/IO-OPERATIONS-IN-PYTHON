@@ -1,0 +1,3 @@
+with open('data2.txt','a') as file:
+    file.write("Hello Everyone\n")
+    

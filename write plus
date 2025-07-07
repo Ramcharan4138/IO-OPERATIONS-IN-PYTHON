@@ -1,0 +1,4 @@
+with open('data2.txt','w+') as file:
+    file.write("It is a new text file ")
+    file.seek(0)
+    print(file.read())

@@ -1,0 +1,4 @@
+with open('data2.txt','r+') as file:
+    data=file.read()
+    file.seek(0)
+    file.write("Tomorrow\n")
