@@ -1,0 +1,17 @@
+IO Operations
+1. open 
+2. close
+open syntax
+open('sample.txt',functionality)
+access modes 
+1.read(r-default mode for reading only)
+2.rb-default mode which we can read and write the file will give priority from beginning
+3. r+ - read/write the file will give priority from beginning
+4. rb+ - read/write binary, priority same as r+
+5. w+ this is only for write format
+6. wb= binary data and replaces the file if it exists
+7. w+ = same
+8. wb+ - read/write binary data
+9. a- adds the previous data to the previous without disturbing
+10. ab binary data appends
+11. a+ - binary data will be read/write
