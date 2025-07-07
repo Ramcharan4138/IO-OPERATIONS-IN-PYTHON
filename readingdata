@@ -1,0 +1,6 @@
+with open('data2.txt','r') as file:
+    data=file.read()
+    print(data)
+    print(file.closed)
+    file.close()
+    print(file.closed)
